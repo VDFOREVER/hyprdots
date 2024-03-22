@@ -18,7 +18,6 @@
             device = "nodev";
             useOSProber = true;
         };
-        efi.efiSysMountPoint = "/boot/efi";
     };
 
     hardware.opengl = {
@@ -27,7 +26,11 @@
         driSupport32Bit = true;
     };
 
-    programs.gnupg.agent.enable = true;
+    programs.gnupg.agent = {
+        enable = true;
+        pinentryPackage = pkgs.pinentry-qt;
+        enableSSHSupport = true;
+    };
 
     system.stateVersion = "24.05";
 }
