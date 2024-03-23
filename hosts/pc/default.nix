@@ -18,6 +18,8 @@
         efi.canTouchEfiVariables = true;
     };
 
+    programs.nix-ld.enable = true;
+
     hardware.opengl = {
         enable = true;
         driSupport = true;
