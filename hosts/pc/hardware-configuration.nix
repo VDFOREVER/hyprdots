@@ -18,14 +18,9 @@
             fsType = "vfat";
         };
 
-    fileSystems."/mnt/sdb1" = {
-      device = "/dev/sdb1";
+    fileSystems."/mnt/disk" = {
+      device = "/dev/disk/by-uuid/97233505-f9b0-4ab6-ad8e-880dc6b1531c";
       fsType = "ext4";
-      options = [ # If you don't have this options attribute, it'll default to "defaults" 
-        # boot options for fstab. Search up fstab mount options you can use
-        "users" # Allows any user to mount and unmount
-        "nofail" # Prevent system from failing if this drive doesn't mount
-      ];
     };
 
     swapDevices = [ ];
