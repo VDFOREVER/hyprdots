@@ -47,15 +47,17 @@ in {
 
     users.users.vdforever = {
         isNormalUser = true;
+        shell = pkgs.fish;
         extraGroups = [ "networkmanager" "wheel" ];
     };
+
+    programs.fish.enable = true;
 
     environment.systemPackages = with pkgs; [
         neofetch
         htop
         earlyoom
         git
-        fish
     ];
 
     fonts.packages = with pkgs; [
