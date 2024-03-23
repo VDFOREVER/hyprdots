@@ -17,5 +17,6 @@
     swappy
     wl-clipboard
     gnome.adwaita-icon-theme
+    xdg-utils
   ];
 }
