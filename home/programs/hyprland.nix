@@ -18,5 +18,6 @@
     wl-clipboard
     gnome.adwaita-icon-theme
     xdg-utils
+    xdg-desktop-portal-hyprland 
   ];
 }

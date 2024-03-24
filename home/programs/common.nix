@@ -7,13 +7,10 @@
     # misc
     spotify
     telegram-desktop
-    discord
+    vesktop
     steam
     qtpass
     firefox
-    
-    # productivity
-    obsidian
 
     # IDE
     vscode
