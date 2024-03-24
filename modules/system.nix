@@ -48,7 +48,7 @@ in {
     users.users.vdforever = {
         isNormalUser = true;
         shell = pkgs.fish;
-        extraGroups = [ "networkmanager" "wheel" ];
+        extraGroups = [ "networkmanager" "wheel" "libvirtd" ];
     };
 
     programs.fish.enable = true;

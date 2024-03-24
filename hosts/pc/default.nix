@@ -19,6 +19,10 @@
     };
 
     programs.nix-ld.enable = true;
+    programs.hyprland.enable = true;
+
+    virtualisation.libvirtd.enable = true;
+    programs.virt-manager.enable = true;
 
     hardware.opengl = {
         enable = true;

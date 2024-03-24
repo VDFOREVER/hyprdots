@@ -8,7 +8,6 @@
     waybar
     cinnamon.nemo
     pavucontrol
-    hyprland
     grim
     dunst
     hyprshade
@@ -16,14 +15,13 @@
     swappy
     wl-clipboard
     xdg-utils
-    xdg-desktop-portal-hyprland 
     dconf
   ];
 
   gtk = {
     enable = true;
     theme = {
-      package = pkgs.flat-remix-gtk;t
+      package = pkgs.flat-remix-gtk;
       name = "Flat-Remix-GTK-Grey-Dark";
     };
 
