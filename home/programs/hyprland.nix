@@ -10,7 +10,6 @@
     pavucontrol
     hyprland
     grim
-    obs-studio
     dunst
     hyprshade
     grimblast
@@ -36,12 +35,7 @@
 
     iconTheme = {
       package = pkgs.tela-icon-theme;
-      name = "Tela-black";
+      name = "Tela-grey";
     };
-
-    #iconTheme = {
-    #  package = pkgs.flat-remix-icon-theme;
-    #  name = "Flat-Remix-Black-Dark";
-    #};
   };
 }

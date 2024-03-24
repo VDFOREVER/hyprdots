@@ -11,6 +11,7 @@
     steam
     qtpass
     firefox
+    obs-studio
 
     # IDE
     vscode
