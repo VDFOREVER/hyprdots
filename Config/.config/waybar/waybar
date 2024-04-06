@@ -1,0 +1,69 @@
+{
+	"position": "bottom",
+	"height": 27,
+	"width": 900,
+	"spacing": 0,
+	"margin-bottom": 5,
+
+    "modules-left": ["custom/weather", "custom/cmus", "custom/foot", "custom/nemo"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["tray", "pulseaudio", "hyprland/language", "clock"],
+
+	"custom/weather": {
+		"format": "󰖞 {}",
+		"interval": 30,
+		"exec": "~/.config/waybar/weather.sh",
+		"tooltip": false
+	},
+
+	"custom/foot": {
+		"format": "",
+		"on-click": "exec alacritty",
+		"tooltip": false
+	},
+
+	"custom/nemo": {
+		"format": "󰉋",
+		"on-click": "exec nemo ~/",
+		"tooltip": false
+	},
+
+
+	"hyprland/workspaces": {
+		"format": "{icon}",
+		"on-click": "activate",
+		"tooltip": false,
+		"all-outputs": true,
+        "persistent_workspaces": {
+		}
+	},
+
+    "tray": {
+		"icon-size": 14,
+		"spacing": 15
+    },
+
+    "pulseaudio": {
+		"scroll-step": 5,
+		"format": "{icon}{volume}%",
+		"format-icons": {
+			"default": [" ", " ", " "]
+		},
+		"on-click": "pavucontrol"
+	},
+
+	"hyprland/language": {
+		"format": "{}",
+		"format-en": "EN",
+		"format-ru": "RU",
+	},
+    
+	"clock": {
+		"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+		"format-alt": "{:%Y-%m-%d}"
+	},
+
+	"escape": true,
+	"exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
+	}
+}

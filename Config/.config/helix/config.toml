@@ -1,0 +1,11 @@
+
+theme = "tokyonight"
+
+[editor]
+line-number = "absolute"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+"backspace" = { r = ":sh cargo run", s = ":w" }
