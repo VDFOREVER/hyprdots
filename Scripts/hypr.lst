@@ -32,3 +32,5 @@ wl-clipboard
 swappy
 dhcpcd
 opendoas
+polkit-gnome
+polkit
