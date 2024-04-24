@@ -5,7 +5,6 @@ telegram-desktop
 qtpass
 filezilla
 qbittorrent
-timeshift
 spotify-launcher
 google-noto-color-emoji-fonts 
 libvirt
@@ -17,5 +16,5 @@ neofetch
 htop
 rustup
 rust-analyzer
-helix
+neovim
 mpv
