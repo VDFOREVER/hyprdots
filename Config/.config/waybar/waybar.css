@@ -21,7 +21,7 @@ window#waybar {
 #custom-weather {
 	background: @black;
 	color: @fg;
-	padding: 0 10px 0 10px;
+	padding: 0 5px 0 10px;
 	margin: 4px 0 4px 10px;
 	border-radius: 6 0 0 6;
 }
@@ -41,9 +41,9 @@ window#waybar {
 #custom-poweroff {
 	background: @black;
 	color: @fg;
-  	padding: 0 5px 0 5px;
+  	padding: 0 10px 0 5px;
 	margin: 4px 0 4px 0;
-	border-radius: 0 6 6 0;
+  	border-radius: 0 6 6 0;
 }
 
 #workspaces {
