@@ -5,7 +5,7 @@
 	"spacing": 0,
 	"margin-bottom": 5,
 
-    "modules-left": ["custom/weather", "custom/cmus", "custom/foot", "custom/nemo"],
+    "modules-left": ["custom/weather", "custom/alacritty", "custom/nemo", "custom/poweroff"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["tray", "pulseaudio", "hyprland/language", "clock"],
 
@@ -16,7 +16,7 @@
 		"tooltip": false
 	},
 
-	"custom/foot": {
+	"custom/alacritty": {
 		"format": "",
 		"on-click": "exec alacritty",
 		"tooltip": false
@@ -28,6 +28,11 @@
 		"tooltip": false
 	},
 
+ 	"custom/poweroff": {
+		"format": "⏻",
+		"on-click": "loginctl poweroff",
+		"tooltip": false
+	},
 
 	"hyprland/workspaces": {
 		"format": "{icon}",
@@ -63,7 +68,6 @@
 		"format-alt": "{:%Y-%m-%d}"
 	},
 
-	"escape": true,
-	"exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null"
+	"escape": true
 	}
 }
