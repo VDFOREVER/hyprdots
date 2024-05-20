@@ -30,7 +30,6 @@ pipewire-devel
 wireplumber
 dbus
 seatd
-polkit
 elogind
 xorg-server-xwayland
 void-repo-nonfree
