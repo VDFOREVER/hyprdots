@@ -28,13 +28,13 @@ cd ~/.local/pkgs/void-packages
 ./xbps-src pkg hypridel
 ./xbps-src pkg hyprcursor
 
-xbps-install -R hostdir/binpkgs hyprland
-xbps-install -R hostdir/binpkgs hyprland-protocols
-xbps-install -R hostdir/binpkgs xdg-desktop-portal-hyprland
-xbps-install -R hostdir/binpkgs hyprlock
-xbps-install -R hostdir/binpkgs hyprpaper
-xbps-install -R hostdir/binpkgs hypridel
-xbps-install -R hostdir/binpkgs hyprcursor
+doas xbps-install -R hostdir/binpkgs hyprland
+doas xbps-install -R hostdir/binpkgs hyprland-protocols
+doasxbps-install -R hostdir/binpkgs xdg-desktop-portal-hyprland
+doas xbps-install -R hostdir/binpkgs hyprlock
+doas xbps-install -R hostdir/binpkgs hyprpaper
+doas xbps-install -R hostdir/binpkgs hypridel
+doas xbps-install -R hostdir/binpkgs hyprcursor
 
 doas usermod -aG _seatd $USER
 
