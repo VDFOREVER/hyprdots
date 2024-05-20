@@ -1,4 +1,4 @@
-#install
+# install
 git clone https://github.com/VDFOREVER/hyprdots.git
 cd hyprdots/Scripts
 sh system.sh
