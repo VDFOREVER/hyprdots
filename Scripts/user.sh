@@ -30,7 +30,7 @@ cd ~/.local/pkgs/void-packages
 
 doas xbps-install -R hostdir/binpkgs hyprland
 doas xbps-install -R hostdir/binpkgs hyprland-protocols
-doasxbps-install -R hostdir/binpkgs xdg-desktop-portal-hyprland
+doas xbps-install -R hostdir/binpkgs xdg-desktop-portal-hyprland
 doas xbps-install -R hostdir/binpkgs hyprlock
 doas xbps-install -R hostdir/binpkgs hyprpaper
 doas xbps-install -R hostdir/binpkgs hypridel
