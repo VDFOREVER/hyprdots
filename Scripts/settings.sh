@@ -9,3 +9,4 @@ gsettings set org.gnome.desktop.interface font-name 'JetBrainsMono 10'
 chmod +x ~/.config/waybar/weather.sh
 chmod +x ~/.config/hypr/script/screenshot.sh
 chmod +x ~/.config/hypr/script/dontkillsteam.sh
+chmod +x ~/.config/hypr/script/grimblast
