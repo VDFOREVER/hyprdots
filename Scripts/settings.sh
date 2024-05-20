@@ -1,5 +1,15 @@
 #!/bin/bash
 
+#install theme
+cd ~/.icons
+tar -xvf icons.tar.gz
+rm icons.tar.gz
+
+cd ~/.themes
+unzip themes.zip
+rm themes.zip
+
+
 gsettings set org.gnome.desktop.interface icon-theme Tela-circle-grey
 gsettings set org.gnome.desktop.interface gtk-theme Flat-Remix-GTK-Grey-Dark
 gsettings set org.gnome.desktop.interface cursor-theme capitaine-cursors-light
