@@ -9,7 +9,6 @@ qt5-wayland
 qt6-wayland
 mesa
 xf86-video-amdgpu
-vulkan-radeon
 mesa-dri
 zramen
 noto-fonts-emoji 
