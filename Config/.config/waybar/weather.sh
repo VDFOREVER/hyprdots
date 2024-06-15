@@ -56,4 +56,6 @@ if [ -n "$weather" ]; then
     weather_icon=$(echo "$weather" | jq -r ".weather[0].icon")
 
     echo  "$weather_temp$SYMBOL"
+else
+    echo 0$SYMBOL
 fi
